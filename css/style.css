@@ -1,0 +1,132 @@
+body{
+    background-color: #fff8f5;
+}
+main ul{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    align-items: center;
+    text-align: center;
+    row-gap: 25px;
+    column-gap: 25px;
+    list-style-type: none;
+    font-size: 130%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-around;
+}
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fields_physics img{
+    width:100%;
+}
+
+.experiment_section{
+    display: grid;
+    grid-template-columns: 65% 30%;
+    align-items: center;
+}
+
+.experiment_section figure{
+    text-align: center;
+}
+
+.experiment_section img{
+    width:110%;
+}
+
+.physicists_image img{
+    width: 100%;
+}
+.physicists_image li{
+border: 2px solid transparent;
+    box-sizing: border-box;
+}
+
+.physicists_image li:nth-child(odd):hover{
+    border:  2px solid;
+    padding: 10% 10%;
+}
+
+.physicists_image li:nth-child(even):hover{
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10% 10%;
+}
+
+nav{
+    font-size: 150%;
+    background-color: #f5ae81;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+nav a{
+    text-decoration: none;
+    padding: 2px;
+}
+nav a:hover{
+    background-color: #f5ba94;
+    border: 2px solid #fa9c62;
+    margin: auto -2px auto -2px;
+}
+
+nav a:focus{
+    background-color: #f5ba94;
+    border: 2px solid #fa9c62;
+    margin: auto -2px auto -2px;
+}
+    
+main{
+  width: 80%;
+  margin: 15% auto; 
+  padding: 20px; 
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+}
+
+h1{
+    font-size: 250%;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 135);
+    padding: 0px 15px;
+}
+
+p{
+    font-size: 130%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px 15px;
+}
+
+.link_to_main{
+    position: absolute;
+    left: -9999px;
+    z-index: 1;
+}
+
+.link_to_main:focus{
+    left: 5px;
+    top: 5px;
+}
+
+footer{
+  text-align: center;
+  margin-top: 20px;
+  background-color: #f09156cc;
+  font-size: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+  border-radius: 10px;
+  padding:20px 30px;
+}
